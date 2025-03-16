@@ -1,0 +1,26 @@
+.app-wrapper {
+  background-color: var(--background-color);
+  color: var(--withe-color);
+}
+
+.add-input {
+  border: 1px solid var(--add-input-border-color);
+  background-color: var(--background-color);
+}
+
+.add-button {
+  background-color: var(--primary-color);
+}
+
+.todo-item {
+  background-color: var(--secondary-color);
+  color: var(--primary-color);
+}
+
+.todo-item-completed {
+  color: var(--text-completed);
+}
+
+.item-action-button:hover {
+  color: var(--add-input-border-color);
+}
